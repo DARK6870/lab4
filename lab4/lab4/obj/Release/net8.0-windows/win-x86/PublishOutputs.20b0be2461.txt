@@ -1,0 +1,5 @@
+C:\Users\tsymb\source\repos\lab4\lab4\bin\Release\net8.0-windows\publish\win-x86\lab4.exe
+C:\Users\tsymb\source\repos\lab4\lab4\bin\Release\net8.0-windows\publish\win-x86\lab4.dll
+C:\Users\tsymb\source\repos\lab4\lab4\bin\Release\net8.0-windows\publish\win-x86\lab4.runtimeconfig.json
+C:\Users\tsymb\source\repos\lab4\lab4\bin\Release\net8.0-windows\publish\win-x86\lab4.pdb
+C:\Users\tsymb\source\repos\lab4\lab4\bin\Release\net8.0-windows\publish\win-x86\lab4.deps.json
