@@ -1,0 +1,5 @@
+D:\GIT\lab4\lab4\lab4\bin\Release\net8.0-windows\publish\win-x86\lab4.exe
+D:\GIT\lab4\lab4\lab4\bin\Release\net8.0-windows\publish\win-x86\lab4.dll
+D:\GIT\lab4\lab4\lab4\bin\Release\net8.0-windows\publish\win-x86\lab4.runtimeconfig.json
+D:\GIT\lab4\lab4\lab4\bin\Release\net8.0-windows\publish\win-x86\lab4.pdb
+D:\GIT\lab4\lab4\lab4\bin\Release\net8.0-windows\publish\win-x86\lab4.deps.json

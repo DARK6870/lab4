@@ -47,7 +47,7 @@ namespace lab4
                     ShowResult(text);
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show($"{ex.Message}");
             }
@@ -102,7 +102,7 @@ namespace lab4
 
                     foreach (string word in words)
                     {
-                        if (IsPalindrome(word))
+                        if (word.Length > 1 && IsPalindrome(word))
                         {
                             palindromes.Add(word);
                         }
@@ -115,7 +115,7 @@ namespace lab4
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "error" ,MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show(ex.Message, "error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -194,20 +194,12 @@ namespace lab4
         {
             StringBuilder encoded = new StringBuilder();
 
-            for(int i = 0; i < text.Length; i++)
+            for (int i = 0; i < text.Length; i++)
             {
                 char c = text[i];
-                byte ost = (byte) (i % 3);
-
-                if (c == 'c')
-                {
-                    char encodedChar = (char)(c + ost + 1);
-                    encoded.Append(encodedChar);
-                }
-                else
-                {
-                    encoded.Append(c);
-                }
+                byte ost = (byte)(i % 3);
+                char encodedChar = (char)(c + ost + 1);
+                encoded.Append(encodedChar);
             }
             return encoded.ToString();
         }
@@ -220,16 +212,8 @@ namespace lab4
             {
                 char c = text[i];
                 byte ost = (byte)(i % 3);
-                char check = (char)(c - ost - 1);
-                if (check == 'c')
-                {
-                    char decodedChar = (char)(c - ost - 1);
-                    decoded.Append(decodedChar);
-                }
-                else
-                {
-                    decoded.Append(c);
-                }
+                char symb = (char)(c - ost - 1);
+                decoded.Append(symb);
             }
             return decoded.ToString();
         }

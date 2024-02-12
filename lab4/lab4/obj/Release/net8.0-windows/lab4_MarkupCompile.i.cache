@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\tsymb\source\repos\lab4\lab4\obj\Release\net8.0-windows\
+D:\GIT\lab4\lab4\lab4\obj\Release\net8.0-windows\
 lab4
 none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP
-C:\Users\tsymb\source\repos\lab4\lab4\App.xaml
+D:\GIT\lab4\lab4\lab4\App.xaml
 11407045341
 1-906273091
 61744815710
 201546507731
 MainWindow.xaml;
 
-False
+True
 
